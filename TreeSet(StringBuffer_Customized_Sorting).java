@@ -1,16 +1,19 @@
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 import java.util.*;
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         TreeSet t= new TreeSet(new myComparator());
-        t.add("A");
-        t.add("ANUSHKA");
-        t.add("Anushka");
-        t.add("anushka");
-        t.add("a");
-        t.add("Z");
+        t.add(new StringBuffer("A"));
+        t.add(new StringBuffer("ANUSHKA"));
+        t.add(new StringBuffer("Anushka"));
+        t.add(new StringBuffer("anushka"));
+        t.add(new StringBuffer("a"));
+        t.add(new StringBuffer("Z"));
+      //  t.add(11118);
         System.out.println(t);
     }
 }
